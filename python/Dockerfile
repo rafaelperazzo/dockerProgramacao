@@ -1,3 +1,6 @@
 FROM python:latest
 
-#RUN pip install ...
+WORKDIR /usr/src/app
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt

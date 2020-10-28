@@ -1,0 +1,8 @@
+numpy
+sympy
+matplotlib
+pandas
+zeep
+progressbar2
+bs4
+requests
